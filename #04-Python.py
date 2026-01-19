@@ -21,3 +21,17 @@ print(s2[2:])
 print(s2[:4])
 
 # Búsqueda
+print("a" in s1)
+print("a" in s2)
+
+# Reemplazo
+print(s1.replace("a", "o"))
+
+# División
+print(s2.split("b"))
+
+# Mayúsculas, minúsculas y letras en mayúsculas
+print(s1.upper())
+print(s1.lower())
+print("david escobedo".title())
+print("david escobedo".capitalize())
